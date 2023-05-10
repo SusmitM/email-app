@@ -1,0 +1,137 @@
+#root {
+    font-family: sans-serif;
+}
+
+.App {
+    display: flex;
+
+
+}
+
+.navbar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.inbox {
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+
+}
+.filterContainer{
+    display: flex;
+    width: 89%;
+    justify-content: space-around;
+}
+
+.trash {
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+
+}
+
+.spam {
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+.Starred{
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+
+}
+
+.mail-container {
+    margin:20px;
+}
+
+.single-mail-container {
+    border: 3.5px solid gray;
+    margin: 8px;
+    text-align: center;
+    margin: auto;
+    padding: 35px;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+.mailCard {
+    border: 2.5px solid #9d9b9b;
+    margin: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(213 213 213);
+}
+
+
+.UnreadTitle {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.mailCard-header {
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailCard-footer {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.btnDiv button{
+    background-color: white;
+    border: 1px solid transparent;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.delete-btn{
+    color:firebrick;
+
+}
+.addToSpam-btn{
+    color:green;
+}
+.viewDetails-btn{
+    color:#a3a306;
+}
+.star-btn{
+    font-size: 20px;
+}
+.redCircle{
+    height: 15px;
+    width: 15px;
+    background-color:red;
+    border-radius: 50%;
+}
+.greenCircle{
+    height: 15px;
+    width: 15px;
+    background-color:green;
+    border-radius: 50%;
+}
+.delete-btn{
+    font-size: 20px;
+}
